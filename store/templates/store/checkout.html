@@ -1,0 +1,50 @@
+{% extends 'store/base.html' %}
+{% load static %}
+{% block title %}Checkout{% endblock title %}
+{% block main-content %}
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-md-8">
+      <h4>Order Summary</h4>
+      <hr>
+      {% for item in items %} 
+      <div class="card mb-2">
+        <div class="card-body">
+          <h5>Product: {{item.product.title}}</h5>
+          <p>Quantity: {{item.quantity}}</p>
+          <p class="fw-bold">Price: {{item.item_cost}}</p> 
+        </div>
+        
+      </div>
+      {% endfor %}
+      <h3>Total Bill: {{total}}</h3>
+      
+    </div>
+    <div class="col-md-4">
+      <h4>Select Shipping Address</h4>
+      <hr>
+      <form action="{% url 'paymentdone' %}" method="post">
+        {% csrf_token %}
+        {% for a in add %}
+        <div class="card mb-2">
+          <div class="card-body border mt-2 ">
+            <h4>{{a.name}}</h4>
+            <p>{{a.phone}}</p>
+            <p>{{a.state}}</p>
+            <p>{{a.address}}</p>
+            <input class="form-check-input" type="radio" value="{{a.id}}" name="custid" id="custadd{{forloop.counter}}" {% if forloop.first %}checked{% endif %}>
+            <label class="form-check-label fw-bold" for="custadd{{forloop.counter}}">
+              Address:{{forloop.counter}}</label>
+          </div>
+        </div>
+        {% empty %}
+        <p>No shipping address found.</p>
+        {% endfor %}
+        <div class="text-end">
+          <button type="submit" class="btn btn-primary mt-3 px-5 fw-bold" {% if not add %}disabled{% endif %}>Continue</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock main-content %}

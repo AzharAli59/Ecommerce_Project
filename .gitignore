@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+
+*.sqlite3
+db.sqlite3
+
+.env
+.idea/
+
+.coverage
+htmlcov/

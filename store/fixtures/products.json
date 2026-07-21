@@ -1,0 +1,470 @@
+[
+{
+  "model": "store.product",
+  "pk": 1,
+  "fields": {
+    "title": "Levi's",
+    "selling_price": "2500.00",
+    "discounted_price": "1800.00",
+    "description": "Classic Quality",
+    "brand": "lee",
+    "category": "BW",
+    "product_image": "productimg/bottom_1.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 2,
+  "fields": {
+    "title": "Wrangler",
+    "selling_price": "2000.00",
+    "discounted_price": "1300.00",
+    "description": "Durable Comfort",
+    "brand": "lee",
+    "category": "BW",
+    "product_image": "productimg/bottom_2.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 3,
+  "fields": {
+    "title": "Diesel",
+    "selling_price": "2400.00",
+    "discounted_price": "1800.00",
+    "description": "Trendy Premium",
+    "brand": "lee",
+    "category": "BW",
+    "product_image": "productimg/bottom_3.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 4,
+  "fields": {
+    "title": "Lee",
+    "selling_price": "2800.00",
+    "discounted_price": "2500.00",
+    "description": "Reliable Fit",
+    "brand": "lee",
+    "category": "BW",
+    "product_image": "productimg/bottom_4.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 5,
+  "fields": {
+    "title": "True Religion",
+    "selling_price": "2200.00",
+    "discounted_price": "1700.00",
+    "description": "Stylish Edge",
+    "brand": "lee",
+    "category": "BW",
+    "product_image": "productimg/bottom_5.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 6,
+  "fields": {
+    "title": "Calvin Klein",
+    "selling_price": "2300.00",
+    "discounted_price": "1500.00",
+    "description": "Modern Elegance",
+    "brand": "lee",
+    "category": "BW",
+    "product_image": "productimg/bottom_6.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 7,
+  "fields": {
+    "title": "Guess",
+    "selling_price": "2350.00",
+    "discounted_price": "2300.00",
+    "description": "Fashion Forward",
+    "brand": "lee",
+    "category": "BW",
+    "product_image": "productimg/bottom_7.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 8,
+  "fields": {
+    "title": "GAP",
+    "selling_price": "2000.00",
+    "discounted_price": "1300.00",
+    "description": "Casual Basics",
+    "brand": "lee",
+    "category": "BW",
+    "product_image": "productimg/bottom_8.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 9,
+  "fields": {
+    "title": "7 For All Mankind",
+    "selling_price": "2900.00",
+    "discounted_price": "2500.00",
+    "description": "Luxury Denim",
+    "brand": "lee",
+    "category": "BW",
+    "product_image": "productimg/bottom_9.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 10,
+  "fields": {
+    "title": "Hp Spectre",
+    "selling_price": "4300.00",
+    "discounted_price": "4000.00",
+    "description": "Sleek, convertible, powerful.",
+    "brand": "Hp",
+    "category": "L",
+    "product_image": "productimg/laptop_1.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 11,
+  "fields": {
+    "title": "HP Envy",
+    "selling_price": "4200.00",
+    "discounted_price": "4100.00",
+    "description": "Elegant, high-performance, stylish.",
+    "brand": "Hp",
+    "category": "L",
+    "product_image": "productimg/laptop_2.webp"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 12,
+  "fields": {
+    "title": "HP Pavilion",
+    "selling_price": "4500.00",
+    "discounted_price": "4300.00",
+    "description": "Affordable, versatile, reliable",
+    "brand": "Hp",
+    "category": "L",
+    "product_image": "productimg/laptop_3.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 13,
+  "fields": {
+    "title": "XPS 13",
+    "selling_price": "4600.00",
+    "discounted_price": "4100.00",
+    "description": "Slim, powerful, elegant.",
+    "brand": "Dell",
+    "category": "L",
+    "product_image": "productimg/laptop_4.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 14,
+  "fields": {
+    "title": "Inspiron 15",
+    "selling_price": "87000.00",
+    "discounted_price": "86000.00",
+    "description": "Versatile, affordable, reliable.",
+    "brand": "Dell",
+    "category": "L",
+    "product_image": "productimg/laptop_5.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 15,
+  "fields": {
+    "title": "Latitude 7400",
+    "selling_price": "4700.00",
+    "discounted_price": "4550.00",
+    "description": "Business, durable, secure.",
+    "brand": "Dell",
+    "category": "L",
+    "product_image": "productimg/laptop_6.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 16,
+  "fields": {
+    "title": "MacBook Air",
+    "selling_price": "5300.00",
+    "discounted_price": "5100.00",
+    "description": "Lightweight, Efficient, Portable",
+    "brand": "Apple",
+    "category": "L",
+    "product_image": "productimg/laptop_7.webp"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 17,
+  "fields": {
+    "title": "MacBook Pro",
+    "selling_price": "5200.00",
+    "discounted_price": "5100.00",
+    "description": "Powerful, Professional, Versatile",
+    "brand": "Apple",
+    "category": "L",
+    "product_image": "productimg/laptop_8.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 18,
+  "fields": {
+    "title": "MacBook Pro 16-inch",
+    "selling_price": "5900.00",
+    "discounted_price": "5500.00",
+    "description": "Large, High-Performance, Advanced",
+    "brand": "Apple",
+    "category": "L",
+    "product_image": "productimg/laptop_9.jpg"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 19,
+  "fields": {
+    "title": "iPhone 14 Pro",
+    "selling_price": "2500.00",
+    "discounted_price": "2200.00",
+    "description": "Latest flagship.",
+    "brand": "Iphone",
+    "category": "M",
+    "product_image": "productimg/mobile_1.webp"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 20,
+  "fields": {
+    "title": "iPhone SE (2022)",
+    "selling_price": "2700.00",
+    "discounted_price": "2500.00",
+    "description": "Budget option.",
+    "brand": "Iphone",
+    "category": "M",
+    "product_image": "productimg/mobile_2.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 21,
+  "fields": {
+    "title": "iPhone 13 Mini",
+    "selling_price": "2300.00",
+    "discounted_price": "2000.00",
+    "description": "Compact size.",
+    "brand": "Iphone",
+    "category": "M",
+    "product_image": "productimg/mobile_3.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 22,
+  "fields": {
+    "title": "Galaxy S23",
+    "selling_price": "2600.00",
+    "discounted_price": "2400.00",
+    "description": "Flagship Excellence",
+    "brand": "Samsung",
+    "category": "M",
+    "product_image": "productimg/mobile-4.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 23,
+  "fields": {
+    "title": "Galaxy Z Fold5",
+    "selling_price": "2300.00",
+    "discounted_price": "2100.00",
+    "description": "Foldable Innovation",
+    "brand": "Samsung",
+    "category": "M",
+    "product_image": "productimg/mobile-5.jpg"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 24,
+  "fields": {
+    "title": "Galaxy A54",
+    "selling_price": "2900.00",
+    "discounted_price": "2500.00",
+    "description": "Affordable Power",
+    "brand": "Samsung",
+    "category": "M",
+    "product_image": "productimg/mobile-6.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 25,
+  "fields": {
+    "title": "Vivo X90 Pro",
+    "selling_price": "3000.00",
+    "discounted_price": "2800.00",
+    "description": "Premium Flagship",
+    "brand": "Vivo",
+    "category": "M",
+    "product_image": "productimg/mobile-7.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 26,
+  "fields": {
+    "title": "Vivo V27",
+    "selling_price": "2700.00",
+    "discounted_price": "2200.00",
+    "description": "Stylish Midrange",
+    "brand": "Vivo",
+    "category": "M",
+    "product_image": "productimg/mobile-8.jpg"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 27,
+  "fields": {
+    "title": "Vivo Y100",
+    "selling_price": "2800.00",
+    "discounted_price": "2500.00",
+    "description": "Affordable Performer",
+    "brand": "Vivo",
+    "category": "M",
+    "product_image": "productimg/mobile-9.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 28,
+  "fields": {
+    "title": "Levi's",
+    "selling_price": "2500.00",
+    "discounted_price": "2200.00",
+    "description": "Classic Denim",
+    "brand": "Hanes",
+    "category": "TW",
+    "product_image": "productimg/tshirt_1.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 29,
+  "fields": {
+    "title": "Wrangler",
+    "selling_price": "2400.00",
+    "discounted_price": "1400.00",
+    "description": "Durable Jeans",
+    "brand": "Nike",
+    "category": "TW",
+    "product_image": "productimg/tshirt_2.webp"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 30,
+  "fields": {
+    "title": "Gap",
+    "selling_price": "2300.00",
+    "discounted_price": "1800.00",
+    "description": "Casual Style",
+    "brand": "Gap",
+    "category": "TW",
+    "product_image": "productimg/tshirt_3.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 31,
+  "fields": {
+    "title": "Diesel",
+    "selling_price": "2400.00",
+    "discounted_price": "1300.00",
+    "description": "Trendy Fashion",
+    "brand": "Hanes",
+    "category": "TW",
+    "product_image": "productimg/tshirt_4.webp"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 32,
+  "fields": {
+    "title": "Uniqlo",
+    "selling_price": "2400.00",
+    "discounted_price": "1800.00",
+    "description": "Affordable Quality",
+    "brand": "Nike",
+    "category": "TW",
+    "product_image": "productimg/tshirt_5.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 33,
+  "fields": {
+    "title": "Calvin Klein",
+    "selling_price": "2500.00",
+    "discounted_price": "2000.00",
+    "description": "Modern Elegance",
+    "brand": "Gap",
+    "category": "TW",
+    "product_image": "productimg/tshirt_6.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 34,
+  "fields": {
+    "title": "H&M",
+    "selling_price": "2300.00",
+    "discounted_price": "2000.00",
+    "description": "Fashionable Basics",
+    "brand": "Hanes",
+    "category": "TW",
+    "product_image": "productimg/tshirt_7.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 35,
+  "fields": {
+    "title": "True Religion",
+    "selling_price": "2300.00",
+    "discounted_price": "2000.00",
+    "description": "Premium Denim",
+    "brand": "Nike",
+    "category": "TW",
+    "product_image": "productimg/tshirt_8.png"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 36,
+  "fields": {
+    "title": "Tommy Hilfiger",
+    "selling_price": "2500.00",
+    "discounted_price": "2300.00",
+    "description": "Preppy Chic",
+    "brand": "Gap",
+    "category": "TW",
+    "product_image": "productimg/tshirt_9.jpg"
+  }
+}
+]
